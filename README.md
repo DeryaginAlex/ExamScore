@@ -20,4 +20,5 @@ Complete the function *maxSubjectsNumber* in the editor below. The function must
 
 #### Constraints
 1 ≤ n ≤ 10⁵
+
 0 ≤ answered[i], needed[i]; q ≤ 10⁹
