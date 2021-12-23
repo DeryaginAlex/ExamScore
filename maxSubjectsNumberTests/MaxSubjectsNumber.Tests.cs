@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace ExemScore {
     [TestFixture]
     public class MaxSubjectsNumberTests {
-
+                                                                                
         static object[] testValue =
         {
         new object[] {
@@ -16,7 +16,7 @@ namespace ExemScore {
 
          new object[] {
             new List<int> { 25, 26, 0 },
-            new List<int> { 51, 52, 100 },
+            new List<int> { 50, 52, 100 },
             99,
             3}
          };
