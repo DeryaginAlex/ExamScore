@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MaxSubjectsNumber {
+namespace ExemScore {
     class Program {
         static void Main(string[] args) {
             Subjects subjects = new Subjects();

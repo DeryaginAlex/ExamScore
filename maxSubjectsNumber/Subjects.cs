@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaxSubjectsNumber {
+namespace ExemScore {
     public class Subjects {
         public int maxSubjectsNumber(List<int> answered, List<int> needed, int q) {
             List<int> CanAnswer = new List<int> { 0, 0, 0 };

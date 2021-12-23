@@ -2,7 +2,7 @@ using NUnit.Framework;
 using MaxSubjectsNumber;
 using System.Collections.Generic;
 
-namespace MaxSubjectsNumber {
+namespace ExemScore {
     [TestFixture]
     public class MaxSubjectsNumberTests {
 
