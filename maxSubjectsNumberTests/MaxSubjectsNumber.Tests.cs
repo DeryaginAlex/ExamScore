@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using MaxSubjectsNumber;
+using ExemScore;
 using System.Collections.Generic;
 
 namespace ExemScore {
