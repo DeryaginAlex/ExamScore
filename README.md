@@ -1,4 +1,4 @@
-### Exem Score
+### Exam Score
 A student has already answered *answered[i]* questions in each of the the *i^th* subjects, and still has time to answer a total of q more questions overall. 
 
 For each *i^th* subject, the number of questions answered has to be at least *needed[i]* in order to pass Determine the maximum number of 
