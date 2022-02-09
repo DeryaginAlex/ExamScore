@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\maxSubjectsNumber\ExamScore.csproj" />
+    <ProjectReference Include="..\ExamScore\ExamScore.csproj" />
   </ItemGroup>
 
 </Project>
