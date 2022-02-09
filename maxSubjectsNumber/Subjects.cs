@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExemScore {
+namespace ExamScore {
     public class Subjects {
         public int maxSubjectsNumber(List<int> answered, List<int> needed, int q) {
             List<int> CanAnswer = new List<int>() {};
@@ -12,13 +12,12 @@ namespace ExemScore {
                 CanAnswer.Add(needed[i] - answered[i]);
             }
             CanAnswer.Sort();
-
             int result = 0;
-
-            for(int i = 0 ; i < CanAnswer.Count ; i++) {
-                if(q > CanAnswer[i])
+            foreach(var item in CanAnswer) {  
+                if(q > item) {
                     result++;
-                q = q - CanAnswer[i];
+                }
+                q -= item;
             }
             return result;
         }
