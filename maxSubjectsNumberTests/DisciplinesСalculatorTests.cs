@@ -2,9 +2,9 @@ using NUnit.Framework;
 using ExamScore;
 using System.Collections.Generic;
 
-namespace ExamScore {
+namespace ExamScoreTests {
     [TestFixture]
-    public class MaxSubjectsNumberTests {
+    public class Disciplines—alculatorTests {
         static object[] testValue =
         {
         new object[] {
@@ -19,9 +19,10 @@ namespace ExamScore {
             2}
          };
         [TestCaseSource(nameof(testValue))]
-        public void Subjects_maxSubjectsNumber_defaultValueUsingTestCaseSource_Test(List<int> answered, List<int> needed, int q, int result) {
-            Subjects subjects = new Subjects();
-            Assert.AreEqual(result, subjects.maxSubjectsNumber(answered, needed, q));
+        public void GetMaxNumber_DefaultValue_Test(List<int> numPointsReceived, List<int> numPointsRequired, int numQuestions, int result) {
+            Disciplines—alculator calculator = new Disciplines—alculator();
+
+            Assert.AreEqual(result, calculator.GetMaxNumber(numPointsReceived, numPointsRequired, numQuestions));
         }
     }
 }
